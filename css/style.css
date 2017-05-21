@@ -17,15 +17,52 @@ p{
     color: aliceblue;
     font-size: 30px;
 }
-
+/*łączenie selektorów*/
 a, span {
     color: red;
     text-decoration: underline;
 }
 
-/*         Selektor bezpośrednigo potomstwa */
+/* Selektor bezpośrednigo potomstwa */
 
 li > a {
     color: aqua;
     font-size: 19px;
+}
+
+
+/* Selektor elementów potomny*/
+div p {
+    background: pink;
+    font-size: 26px;
+    color: bisque;
+}
+
+/*Selektor bezpośredniego rodzeństwa*/
+div p + a {
+    background: black;
+    color: bisque;
+    text-transform: uppercase;
+}
+
+/*Selektor rodzeńswa*/
+header h2 ~ h3 {
+    color: blueviolet;
+    background: yellow;
+    
+}
+
+/*Selektor wylkuczający*/
+
+#wykluczajacy > li:not(.last){
+    color: coral;
+}
+#wykluczający{
+    list-style: none;
+}
+
+/*Selektor kolejnego elementu potomnego*/
+#nth > li:nth-child(2){
+    background: red;
+    font-size: 40px;
 }
