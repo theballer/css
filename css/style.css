@@ -64,5 +64,5 @@ header h2 ~ h3 {
 /*Selektor kolejnego elementu potomnego*/
 #nth > li:nth-child(2){
     background: red;
-    font-size: 40px;
+    font-size: 40px; 
 }
