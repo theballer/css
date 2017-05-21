@@ -1,0 +1,31 @@
+/*Selektor znacznika*/
+p{
+    color: blue;
+    font-size: 18px;
+    background: yellow;
+}
+
+/*Selektor id */
+#identyfikator    {
+    background: green;
+    color:  white;
+    font-size: 21px;
+}
+/*selektor klasy*/
+.przyklad {
+    background: blue;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+a, span {
+    color: red;
+    text-decoration: underline;
+}
+
+/*         Selektor bezpośrednigo potomstwa */
+
+li > a {
+    color: aqua;
+    font-size: 19px;
+}
